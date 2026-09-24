@@ -6,17 +6,21 @@ The displayed product name is Q. Technical paths, local storage keys and service
 
 - Nasdaq's official symbol directory provides current listed securities, with test issues excluded and ETFs distinguished. Other Nasdaq security types remain labeled Listed security rather than guessed to be common shares.
 - NSE's official equity, SME and ETF CSV directories provide searchable Indian listings. A `.NS` suffix disambiguates these catalogue symbols from US tickers; it is not a claim of a Massive NSE symbol mapping.
-- Massive is the only built-in price-history provider. There is no Yahoo or synthetic fallback. Massive currently supports US equities, not NSE. NSE history can be supplied through Data → Import historical CSV.
+- Provider selection is explicit: Yahoo, Massive, synthetic and imported CSV sources are available according to workflow. A provider failure never switches to synthetic data. Massive currently supports US equities, not NSE; NSE history can be supplied through Data → Import historical CSV.
 - Enter a Massive key under Connections. It goes through the same-origin loopback gateway and is retained in backend memory only. `MASSIVE_API_KEY` can alternatively be supplied in the backend environment. The key is sent to api.massive.com using an Authorization header, never a URL, browser storage, logs, or Codex context.
-- Requests are paced 12.5 seconds apart for compatibility with the Basic plan's five calls per minute. History requests cover 729 days, staying inside the two-year entitlement. A dataset fetch requires daily bars, splits and dividends, including pagination. No all-market automatic price crawl runs at startup.
+- The adapter paces requests 12.5 seconds apart and requests 729 days of history. These are implementation limits; actual access depends on the user's provider entitlement. A dataset fetch requires daily bars, splits and dividends, including pagination. No all-market automatic price crawl runs at startup.
 
 ## Storage and provenance
 
 Local `.data/market` contains cached exchange directories, immutable SHA-256 dataset snapshots, latest-version pointers, and backend result records. Keep this directory private and excluded from source control. Historical snapshots survive restarts; credentials do not.
 
-The browser uses `q21-workspace-real-v2`. The previous `q21-workspace-v1` is preserved intact and can be exported as a legacy synthetic workspace under Settings. Its generated prices and results are not restored into the active real-data workspace. New results require explicit real datasets; backtesting cannot generate bars implicitly. Deterministic invented fixtures exist only under tests.
+The browser uses `q21-workspace-real-v2`. The previous `q21-workspace-v1` is preserved intact and can be exported as a legacy synthetic workspace under Settings. Its generated prices and results are not restored into the active real-data workspace. New results require explicitly selected datasets; backtesting cannot generate bars implicitly. Selected-symbol synthetic scenarios use seed 42, a fixed end date of 2025-12-31 and artificial weekday observations. Existing labs retain their explicit scenario seeds and dates. Synthetic output is labeled and is not market evidence.
 
 Dataset identity includes instrument, provider, price basis and every input bar/corporate action. Result identity includes strategy, dataset identity and engine version. Unavailable prices remain missing, current-day bars are excluded, cached refresh failures are labeled, and missing RSI/momentum history is shown as unavailable. CSV imports must declare their actual source and raw/unadjusted price basis; that declaration is not independent verification of provenance.
+
+## Provider-specific research units
+
+Terminal Massive backtests use raw OHLC plus explicit splits and dividends. Python Massive portfolio/lab views use split-adjusted prices and exclude cash dividends. Yahoo research uses provider-adjusted OHLCV units. Imported CSV source declarations are user-supplied metadata, not independent verification. Order-book, latency and options-flow simulations remain synthetic because OHLCV cannot provide those observations.
 
 ## Quant conventions and limitations
 

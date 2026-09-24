@@ -2,7 +2,7 @@
 
 Q is the canonical product name and the single system going forward. Build all future capabilities in this checkout as parts of Q. The former regime platform and Evidence are integrated modules and historical sources, not separate products to develop. Preserve their original projects for reference and migration verification. Existing `q21`, `flagship`, and `evidence` technical identifiers may remain for compatibility with stored data, scripts and imports.
 
-Read docs/q21-product-specification.md and docs/implementation.md before substantial changes.
+Read docs/implementation.md and the relevant methodology documentation before substantial changes. The original docs/q21-product-specification.md is retained locally when available; it is historical planning, not a claim of implemented capabilities.
 
 - Keep UI, research calculations, account simulation, data, and broker services separate.
 - Keep demo data explicitly labeled and reproducible. Never fabricate connectivity, live prices, AI responses, or backtest results.

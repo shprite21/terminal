@@ -1,672 +1,672 @@
 [
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\attribution.py",
-    "destination": "apps\\engine\\analytics\\attribution.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/attribution.py",
+    "destination": "apps/engine/analytics/attribution.py",
     "sha256": "fbedf670c74cf9a544b2665dc9399848fcfbcef556006985ba8383df169a0203"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\benchmarking.py",
-    "destination": "apps\\engine\\analytics\\benchmarking.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/benchmarking.py",
+    "destination": "apps/engine/analytics/benchmarking.py",
     "sha256": "e7231652429e98532d5eaf1cfb5557d88374d023b9287086c7e4604b296e7e2d"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\correlation.py",
-    "destination": "apps\\engine\\analytics\\correlation.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/correlation.py",
+    "destination": "apps/engine/analytics/correlation.py",
     "sha256": "a31077a45cd9cc31e08c731f2e0b641bb06665e77e33d721d24c05bc7de517b1"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\cost_sensitivity.py",
-    "destination": "apps\\engine\\analytics\\cost_sensitivity.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/cost_sensitivity.py",
+    "destination": "apps/engine/analytics/cost_sensitivity.py",
     "sha256": "424efa940f043612f55e99d95251d2e4aeaefca5ab4ea1531be463bcf6f80b44"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\factor_exposure.py",
-    "destination": "apps\\engine\\analytics\\factor_exposure.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/factor_exposure.py",
+    "destination": "apps/engine/analytics/factor_exposure.py",
     "sha256": "d87c334a0c979f87f16b275aa91f4a0707da0dbb031e4e4e51cead397f7353b2"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\html_report.py",
-    "destination": "apps\\engine\\analytics\\html_report.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/html_report.py",
+    "destination": "apps/engine/analytics/html_report.py",
     "sha256": "998d6b4da3f4931f8053f8f65ac5d732518e3aca3cb695d820d47e032cf0c583"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\metrics.py",
-    "destination": "apps\\engine\\analytics\\metrics.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/metrics.py",
+    "destination": "apps/engine/analytics/metrics.py",
     "sha256": "6158ecdd112da46731058e2f69f936c94c5600d3a2bc7ec98c3fec5c73f1b320"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\portfolio_diagnostics.py",
-    "destination": "apps\\engine\\analytics\\portfolio_diagnostics.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/portfolio_diagnostics.py",
+    "destination": "apps/engine/analytics/portfolio_diagnostics.py",
     "sha256": "3c0834416c7d2709ec546b5b0b9adc2f4cc569eec25073e4f9eccb28c4f6de4c"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\regime_analysis.py",
-    "destination": "apps\\engine\\analytics\\regime_analysis.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/regime_analysis.py",
+    "destination": "apps/engine/analytics/regime_analysis.py",
     "sha256": "d957ed897647db5bd0a2b95717464b4c8ddf07ae39d35cd487832305e1ed2ce8"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\tearsheet.py",
-    "destination": "apps\\engine\\analytics\\tearsheet.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/tearsheet.py",
+    "destination": "apps/engine/analytics/tearsheet.py",
     "sha256": "9d1743935efce05e4ac3461ffe850b889908eb4c0963ec37484b66e7e41b880b"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\analytics\\__init__.py",
-    "destination": "apps\\engine\\analytics\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/analytics/__init__.py",
+    "destination": "apps/engine/analytics/__init__.py",
     "sha256": "e0b86ed91568c2a090e31b0faac0fdf47139df7622c42d64a6fba537e4fef698"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\backtesting\\engine.py",
-    "destination": "apps\\engine\\backtesting\\engine.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/backtesting/engine.py",
+    "destination": "apps/engine/backtesting/engine.py",
     "sha256": "489b9503521649616b25a1ce758c103b11f47c857603e639613fd1e49ca852c0"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\backtesting\\walk_forward.py",
-    "destination": "apps\\engine\\backtesting\\walk_forward.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/backtesting/walk_forward.py",
+    "destination": "apps/engine/backtesting/walk_forward.py",
     "sha256": "9d77658f581d821d3619fa42872eb8976857303722e7ccb24178481dec1a7840"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\backtesting\\__init__.py",
-    "destination": "apps\\engine\\backtesting\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/backtesting/__init__.py",
+    "destination": "apps/engine/backtesting/__init__.py",
     "sha256": "b34de4f272f6e320fff8f1aab8636e1aa8f53127aaf801bd352ee5ee79ff49ec"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\configs\\default.yaml",
-    "destination": "apps\\engine\\configs\\default.yaml",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/configs/default.yaml",
+    "destination": "apps/engine/configs/default.yaml",
     "sha256": "9cc18494e8fe6731b3b84f8a790f02a4f700d30a9fce89ebf5682c90614df89d"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\configs\\loader.py",
-    "destination": "apps\\engine\\configs\\loader.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/configs/loader.py",
+    "destination": "apps/engine/configs/loader.py",
     "sha256": "b4469ccc3163631f56569114e4bd52c654046de8018fe9df2ff7d106784936b7"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\configs\\strategy_universe.yaml",
-    "destination": "apps\\engine\\configs\\strategy_universe.yaml",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/configs/strategy_universe.yaml",
+    "destination": "apps/engine/configs/strategy_universe.yaml",
     "sha256": "58d1bce21e4ac4ed37ebca3c23bad89f78448ec8c7eb5445c4f1dfedc79b9139"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\configs\\__init__.py",
-    "destination": "apps\\engine\\configs\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/configs/__init__.py",
+    "destination": "apps/engine/configs/__init__.py",
     "sha256": "54cd04dc7207db1cb5dd2eeb58e2215bfba7c5683f72f70520c004ca99f1625e"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\features.py",
-    "destination": "apps\\engine\\data\\features.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/features.py",
+    "destination": "apps/engine/data/features.py",
     "sha256": "a5fa09e8da8f417f1248f6d4a964b363637228b215089545e5bea672f2dd2497"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\ingestion.py",
-    "destination": "apps\\engine\\data\\ingestion.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/ingestion.py",
+    "destination": "apps/engine/data/ingestion.py",
     "sha256": "363728b04139ad6fb7391e2b1a2e78abcc0eb5a50f9d71a6ba914451979b7769"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\models.py",
-    "destination": "apps\\engine\\data\\models.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/models.py",
+    "destination": "apps/engine/data/models.py",
     "sha256": "1f55af264f89e503cf4fd3491e5813a8cf39b2669217859a14017bbc80be634b"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\research_source.py",
-    "destination": "apps\\engine\\data\\research_source.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/research_source.py",
+    "destination": "apps/engine/data/research_source.py",
     "sha256": "96c31c661e5f5b00aa6b2d0a7a71c0e66c24adf28c704c37fb934e8f21f2e2c2"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\validation.py",
-    "destination": "apps\\engine\\data\\validation.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/validation.py",
+    "destination": "apps/engine/data/validation.py",
     "sha256": "42493faa48f9741ed4be368059215d5793851067a166d3aaaefc16b86c27d563"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\yahoo_runtime.py",
-    "destination": "apps\\engine\\data\\yahoo_runtime.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/yahoo_runtime.py",
+    "destination": "apps/engine/data/yahoo_runtime.py",
     "sha256": "2693f343147b7618849fdff5174f1bf6a21afea2357606ee2aff00684ef8296f"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\data\\__init__.py",
-    "destination": "apps\\engine\\data\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/data/__init__.py",
+    "destination": "apps/engine/data/__init__.py",
     "sha256": "144b51b13e01b008ee35f71ccab151964c13e457984ecab0194aecce1f2ac4ef"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\execution\\README.md",
-    "destination": "apps\\engine\\execution\\README.md",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/execution/README.md",
+    "destination": "apps/engine/execution/README.md",
     "sha256": "22d1ba17763e6172f0be18ef955c595808eec79df7faeaeaffdf968f53012d1a"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\execution\\simulator.py",
-    "destination": "apps\\engine\\execution\\simulator.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/execution/simulator.py",
+    "destination": "apps/engine/execution/simulator.py",
     "sha256": "337e5920e37b9f6380209bbbb69666f49e1a8482a03c13ce271fc92ee87b9683"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\execution\\__init__.py",
-    "destination": "apps\\engine\\execution\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/execution/__init__.py",
+    "destination": "apps/engine/execution/__init__.py",
     "sha256": "70d861bfde9d68b9080aa858b94a2aa2e63159baa35fb24268a16c7051ca1bff"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\portfolio\\allocation.py",
-    "destination": "apps\\engine\\portfolio\\allocation.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/portfolio/allocation.py",
+    "destination": "apps/engine/portfolio/allocation.py",
     "sha256": "af74e41cebd6321bd28c2d32c4f419855bdb572b101b0787280b3a2e62101e99"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\portfolio\\custom.py",
-    "destination": "apps\\engine\\portfolio\\custom.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/portfolio/custom.py",
+    "destination": "apps/engine/portfolio/custom.py",
     "sha256": "3445f58cc5e2ca281acfddf68b770891af2bfc69579ac9b163f6180b480dfa22"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\portfolio\\__init__.py",
-    "destination": "apps\\engine\\portfolio\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/portfolio/__init__.py",
+    "destination": "apps/engine/portfolio/__init__.py",
     "sha256": "a2b80c8fde0e3071863fb62b8d43efeeabcd90202714e633e9fd887d535e5d35"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\base.py",
-    "destination": "apps\\engine\\regime_detection\\base.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/base.py",
+    "destination": "apps/engine/regime_detection/base.py",
     "sha256": "087515a7f957aec0925004ae1f501afde67c58c49e9415c2e46f6c8caee4e203"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\ensemble.py",
-    "destination": "apps\\engine\\regime_detection\\ensemble.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/ensemble.py",
+    "destination": "apps/engine/regime_detection/ensemble.py",
     "sha256": "915db20f959aea739e17a405f2bfd0a7e58656fd5868220fe00a78c6b6524f67"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\hmm.py",
-    "destination": "apps\\engine\\regime_detection\\hmm.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/hmm.py",
+    "destination": "apps/engine/regime_detection/hmm.py",
     "sha256": "b0b7f2387d894c3ce100ebe884c543e54202cb6c7fce8f822d0870a93116b728"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\macro.py",
-    "destination": "apps\\engine\\regime_detection\\macro.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/macro.py",
+    "destination": "apps/engine/regime_detection/macro.py",
     "sha256": "2b8967f9a1eb6f534beff5d1d2c8c8fea3b2224ac77288c301e076c7a25919c1"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\volatility.py",
-    "destination": "apps\\engine\\regime_detection\\volatility.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/volatility.py",
+    "destination": "apps/engine/regime_detection/volatility.py",
     "sha256": "29e5f1338d7289cd31c2d4b37ab0f67464f8121cd43ebff537a335862a10ac8e"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\regime_detection\\__init__.py",
-    "destination": "apps\\engine\\regime_detection\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/regime_detection/__init__.py",
+    "destination": "apps/engine/regime_detection/__init__.py",
     "sha256": "2c24fc3ab93bc66220f7f7ce30c1409b0d8027109ca4edc60cd4537a2350f293"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\experiment_tracker.py",
-    "destination": "apps\\engine\\research\\experiment_tracker.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/experiment_tracker.py",
+    "destination": "apps/engine/research/experiment_tracker.py",
     "sha256": "3beb98a797e1520ff10249b54998327c37ab389c8dd08b472a43990e9d2350dc"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\pipeline.py",
-    "destination": "apps\\engine\\research\\pipeline.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/pipeline.py",
+    "destination": "apps/engine/research/pipeline.py",
     "sha256": "a0555a0ebc82013fc8adcdaa9f403a0502e3a4f3aa0b5ef3fd3447c007c0d1c7"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\PM_WORKFLOW.md",
-    "destination": "apps\\engine\\research\\PM_WORKFLOW.md",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/PM_WORKFLOW.md",
+    "destination": "apps/engine/research/PM_WORKFLOW.md",
     "sha256": "958ce316c3d2fc582f1fc10b8d91f823370e41e086218171ccf8f616d7f91356"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\README.md",
-    "destination": "apps\\engine\\research\\README.md",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/README.md",
+    "destination": "apps/engine/research/README.md",
     "sha256": "505e097e05080a1d86dd8ee3a5440201fa551e58f2f6de637d9e5735751adf43"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\robustness.py",
-    "destination": "apps\\engine\\research\\robustness.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/robustness.py",
+    "destination": "apps/engine/research/robustness.py",
     "sha256": "f7983813fd774bda0a3b25feca621b4fe76e30b9a14e7d415c259126d21ffdbd"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\workspace.py",
-    "destination": "apps\\engine\\research\\workspace.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/workspace.py",
+    "destination": "apps/engine/research/workspace.py",
     "sha256": "b1fc3281ff7757689005e30208623c4227ebd52e311847171ef8b2e24a737538"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\research\\__init__.py",
-    "destination": "apps\\engine\\research\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/research/__init__.py",
+    "destination": "apps/engine/research/__init__.py",
     "sha256": "fd925a19f7d169e9d58323cb3a1f61ba84d829063a6d5266474ab2a17353f722"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\risk\\costs.py",
-    "destination": "apps\\engine\\risk\\costs.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/risk/costs.py",
+    "destination": "apps/engine/risk/costs.py",
     "sha256": "01b7e220fc1257eee417427f6bddb582e6ca1b6be6ddd7b382debc18445a43bd"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\risk\\management.py",
-    "destination": "apps\\engine\\risk\\management.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/risk/management.py",
+    "destination": "apps/engine/risk/management.py",
     "sha256": "8bde52877c6f8a7509c3220ca5db7c6655c19f3b9c850d4cfb9d07194b644bbf"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\risk\\__init__.py",
-    "destination": "apps\\engine\\risk\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/risk/__init__.py",
+    "destination": "apps/engine/risk/__init__.py",
     "sha256": "950e6aff98faaf97e9413fba31f995b9569de6d838991133ff59fa62b82400d2"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\base.py",
-    "destination": "apps\\engine\\strategies\\base.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/base.py",
+    "destination": "apps/engine/strategies/base.py",
     "sha256": "db572a5f657646729d6864ab050590b828f46684365273f78f90333fc05a9212"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\breakout.py",
-    "destination": "apps\\engine\\strategies\\breakout.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/breakout.py",
+    "destination": "apps/engine/strategies/breakout.py",
     "sha256": "feb1b3dbe17480e5be1483505e2ddf76d0f621b59fd321531cb69ebdf7b5da7b"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\events.py",
-    "destination": "apps\\engine\\strategies\\events.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/events.py",
+    "destination": "apps/engine/strategies/events.py",
     "sha256": "e5e46dd7cd7a877bfe2f1cad7c25e0fb5d29c97bbf0bc8e9d516d0139e6287b8"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\library.py",
-    "destination": "apps\\engine\\strategies\\library.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/library.py",
+    "destination": "apps/engine/strategies/library.py",
     "sha256": "f92ad8e00359a787236fed170e82788adb109bb236a8d9b3f65e7a9d0184f245"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\pairs.py",
-    "destination": "apps\\engine\\strategies\\pairs.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/pairs.py",
+    "destination": "apps/engine/strategies/pairs.py",
     "sha256": "1850d0ce7fd80b60e98e5695d0ddaf1c7a538dd82e767a368436ecdc9009768d"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\sector_rotation.py",
-    "destination": "apps\\engine\\strategies\\sector_rotation.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/sector_rotation.py",
+    "destination": "apps/engine/strategies/sector_rotation.py",
     "sha256": "7f285b3c41d9cf352c434511b7aeac17dcc46c68523fb07be23609a27819df08"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\utils.py",
-    "destination": "apps\\engine\\strategies\\utils.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/utils.py",
+    "destination": "apps/engine/strategies/utils.py",
     "sha256": "faff06a7a8672ea17453651812f8e4d556e7dd7bb9ff69c3af50c491832662ba"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\__init__.py",
-    "destination": "apps\\engine\\strategies\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/__init__.py",
+    "destination": "apps/engine/strategies/__init__.py",
     "sha256": "27f0b3850b763c65607f0a2d969eeed388fb03b4160ff4981f0a508637b7fa74"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\event_driven\\core.py",
-    "destination": "apps\\engine\\strategies\\event_driven\\core.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/event_driven/core.py",
+    "destination": "apps/engine/strategies/event_driven/core.py",
     "sha256": "5b8c3e36af3832f1e98cdca10ead610ee30e89fa4e276599e1ac1a99cdc63696"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\event_driven\\__init__.py",
-    "destination": "apps\\engine\\strategies\\event_driven\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/event_driven/__init__.py",
+    "destination": "apps/engine/strategies/event_driven/__init__.py",
     "sha256": "36def6eab651751950b1eb9b9b661316967a5e372600f2a3c4e6cbe243bdd021"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\mean_reversion\\core.py",
-    "destination": "apps\\engine\\strategies\\mean_reversion\\core.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/mean_reversion/core.py",
+    "destination": "apps/engine/strategies/mean_reversion/core.py",
     "sha256": "e361a89258cada8aa1d41bd9f3a7c66045b0b60ad8c7d21608204e673dace51a"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\mean_reversion\\__init__.py",
-    "destination": "apps\\engine\\strategies\\mean_reversion\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/mean_reversion/__init__.py",
+    "destination": "apps/engine/strategies/mean_reversion/__init__.py",
     "sha256": "4a5c344e4bb78be24f57949ac912375cec8d0cc1aa538e0bae10a99964a65ad3"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\momentum\\core.py",
-    "destination": "apps\\engine\\strategies\\momentum\\core.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/momentum/core.py",
+    "destination": "apps/engine/strategies/momentum/core.py",
     "sha256": "a8d20b6b7f6445ef0e39782b808b63735306eada0b5d81d27734a6aad0d667cc"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\momentum\\__init__.py",
-    "destination": "apps\\engine\\strategies\\momentum\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/momentum/__init__.py",
+    "destination": "apps/engine/strategies/momentum/__init__.py",
     "sha256": "48d45eb03e4abca27baf5b92f4c0a039d7fd573e179e8d10d0b65c9f85af9655"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\stat_arb\\core.py",
-    "destination": "apps\\engine\\strategies\\stat_arb\\core.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/stat_arb/core.py",
+    "destination": "apps/engine/strategies/stat_arb/core.py",
     "sha256": "7a81ce78dcf0b8c229717a25124f74a614aecf027ffdaa3bacb7012634b5807c"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\stat_arb\\__init__.py",
-    "destination": "apps\\engine\\strategies\\stat_arb\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/stat_arb/__init__.py",
+    "destination": "apps/engine/strategies/stat_arb/__init__.py",
     "sha256": "05d3496e9c0a198746cd5a89b6ee863250850461b0f63f3d3cc2f0ab6fe8e5be"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\volatility\\core.py",
-    "destination": "apps\\engine\\strategies\\volatility\\core.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/volatility/core.py",
+    "destination": "apps/engine/strategies/volatility/core.py",
     "sha256": "11692be111cd965e1398b60c91239053ebfd4c53fe991d967e86279cb379c199"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\strategies\\volatility\\__init__.py",
-    "destination": "apps\\engine\\strategies\\volatility\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/strategies/volatility/__init__.py",
+    "destination": "apps/engine/strategies/volatility/__init__.py",
     "sha256": "673a6d4a9822346ddb220661666aaafe12d51961e19dcfb245e55974a229ca81"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\visualization\\plots.py",
-    "destination": "apps\\engine\\visualization\\plots.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/visualization/plots.py",
+    "destination": "apps/engine/visualization/plots.py",
     "sha256": "f8ae780f62b6892a8b1f33a405b6b3db1faddce80a93c49dd5faa3582aa5ede5"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\visualization\\__init__.py",
-    "destination": "apps\\engine\\visualization\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/visualization/__init__.py",
+    "destination": "apps/engine/visualization/__init__.py",
     "sha256": "4731c3dae413854cc29677f997cc4dcf1bfe9693b1f4ab56dca5b741c7ff9b23"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\conftest.py",
-    "destination": "apps\\engine\\tests\\conftest.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/conftest.py",
+    "destination": "apps/engine/tests/conftest.py",
     "sha256": "dbdfeaa06e6b2fda5ebb2526b19ca3ee726e8f8f4e170d52a19257affcb10732"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_advanced_analytics.py",
-    "destination": "apps\\engine\\tests\\test_advanced_analytics.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_advanced_analytics.py",
+    "destination": "apps/engine/tests/test_advanced_analytics.py",
     "sha256": "72e5506b2dd1bc13455dbbeda9d1068b18de1c1c352a09d4381f2e561dfe3990"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_backtesting_analytics.py",
-    "destination": "apps\\engine\\tests\\test_backtesting_analytics.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_backtesting_analytics.py",
+    "destination": "apps/engine/tests/test_backtesting_analytics.py",
     "sha256": "5358a2a1ed149075b3e2aa07b1c2301f19e41529e53b2ac24bae7f845037356c"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_custom_portfolio.py",
-    "destination": "apps\\engine\\tests\\test_custom_portfolio.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_custom_portfolio.py",
+    "destination": "apps/engine/tests/test_custom_portfolio.py",
     "sha256": "3da114f6b94ea4ce9f33967a26cd9bc3c3fd1b82daad911f2e596a790f8a799d"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_execution_research.py",
-    "destination": "apps\\engine\\tests\\test_execution_research.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_execution_research.py",
+    "destination": "apps/engine/tests/test_execution_research.py",
     "sha256": "344d67467bf3c86bc6760c35e81817a61f6bc6e8a5eb24febcdc1b45ea5ccf2d"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_regime_portfolio.py",
-    "destination": "apps\\engine\\tests\\test_regime_portfolio.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_regime_portfolio.py",
+    "destination": "apps/engine/tests/test_regime_portfolio.py",
     "sha256": "2ec2cd77e6b27ebd7a346a62d2938f611fc3efc190d4dfb029ccad11752d5f23"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_research_workspace.py",
-    "destination": "apps\\engine\\tests\\test_research_workspace.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_research_workspace.py",
+    "destination": "apps/engine/tests/test_research_workspace.py",
     "sha256": "1f8d40c09567734c4613fc969be1beac22c0a2121a293441e4313cba80aa476c"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_strategies.py",
-    "destination": "apps\\engine\\tests\\test_strategies.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_strategies.py",
+    "destination": "apps/engine/tests/test_strategies.py",
     "sha256": "6630b325379820c8d2a1f747fdbf2122593e9282d9a870bd0827e92260156345"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\tests\\test_walkforward_robustness_validation.py",
-    "destination": "apps\\engine\\tests\\test_walkforward_robustness_validation.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/tests/test_walkforward_robustness_validation.py",
+    "destination": "apps/engine/tests/test_walkforward_robustness_validation.py",
     "sha256": "66c95d8cc92643e9dd0aaeeb012c0bf3e0e96c990c3d15874ce938826e4b2ff2"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\scripts\\run_advanced_diagnostics.py",
-    "destination": "apps\\engine\\scripts\\run_advanced_diagnostics.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/scripts/run_advanced_diagnostics.py",
+    "destination": "apps/engine/scripts/run_advanced_diagnostics.py",
     "sha256": "57e0b0f4c126b3cb9be733f8a554d276f96e48fb4a3010284987a3a2944d3d95"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\scripts\\run_dashboard.ps1",
-    "destination": "apps\\engine\\scripts\\run_dashboard.ps1",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/scripts/run_dashboard.ps1",
+    "destination": "apps/engine/scripts/run_dashboard.ps1",
     "sha256": "08db1924f449b7de45bf6c89b73cdd7d3fbc97d0c77c5d6bbdabc25d833c5503"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\scripts\\run_research.py",
-    "destination": "apps\\engine\\scripts\\run_research.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/scripts/run_research.py",
+    "destination": "apps/engine/scripts/run_research.py",
     "sha256": "3cc53f42b1f3d6be3589373920a707f0cfab8f724f2023340c280d2059717f10"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\pyproject.toml",
-    "destination": "apps\\engine\\pyproject.toml",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/pyproject.toml",
+    "destination": "apps/engine/pyproject.toml",
     "sha256": "215dc94a033c67156e2f07264d35ae313d45998d54106f876787528297b74f26"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\README.md",
-    "destination": "apps\\engine\\README.md",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/README.md",
+    "destination": "apps/engine/README.md",
     "sha256": "15f995bca71308c9e4ad89ae1d5369dea5c99087f47949399fe88e1c9b18858e"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\__init__.py",
-    "destination": "apps\\engine\\apps\\__init__.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/__init__.py",
+    "destination": "apps/engine/apps/__init__.py",
     "sha256": "ac09a3844c9f8b97a01dcd6e5dbb57462c8723c050e25d6d3babd6db45e641d5"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\research_api.py",
-    "destination": "apps\\engine\\apps\\research_api.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/research_api.py",
+    "destination": "apps/engine/apps/research_api.py",
     "sha256": "94b4e9677e44caa6b8f59585a5b14155177c0127bc35305d037b30a86f6f708f"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_api.py",
-    "destination": "apps\\engine\\apps\\portfolio_api.py",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_api.py",
+    "destination": "apps/engine/apps/portfolio_api.py",
     "sha256": "0d82e2a3a5288d6802e00b4cd0737c3b2d246203071a8416a4c11762c58a5b55"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\actions.py",
-    "destination": "apps\\engine\\evidence\\actions.py",
+    "source": "systematic swing trading bot/backtester/research/actions.py",
+    "destination": "apps/engine/evidence/actions.py",
     "sha256": "d8aa42c510d0a5bbdec2c4aafe41ae3cc9799323bb6a0c411be9abe745a20145"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\bar_lab.py",
-    "destination": "apps\\engine\\evidence\\bar_lab.py",
+    "source": "systematic swing trading bot/backtester/research/bar_lab.py",
+    "destination": "apps/engine/evidence/bar_lab.py",
     "sha256": "31b868efb9251d460f59404ffe0c1d9e2b94ac28ddfe3f1e22acca06268134c3"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\charts.py",
-    "destination": "apps\\engine\\evidence\\charts.py",
+    "source": "systematic swing trading bot/backtester/research/charts.py",
+    "destination": "apps/engine/evidence/charts.py",
     "sha256": "323b2a0ff99d49791a38725e24971602e8588f3a8f4bfc86a16fbcd041ae72ad"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\cli.py",
-    "destination": "apps\\engine\\evidence\\cli.py",
+    "source": "systematic swing trading bot/backtester/research/cli.py",
+    "destination": "apps/engine/evidence/cli.py",
     "sha256": "13f4816b86983aef68d5f33f406f00e8414d96aa84e64d65e6cdf7b8e5827c3d"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\data.py",
-    "destination": "apps\\engine\\evidence\\data.py",
+    "source": "systematic swing trading bot/backtester/research/data.py",
+    "destination": "apps/engine/evidence/data.py",
     "sha256": "fb92ea4653bca5f54ac10bf2218760bd3917591c030bed50a480bc724056694b"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\diagnostics.py",
-    "destination": "apps\\engine\\evidence\\diagnostics.py",
+    "source": "systematic swing trading bot/backtester/research/diagnostics.py",
+    "destination": "apps/engine/evidence/diagnostics.py",
     "sha256": "6c0756a5544126f1c5f50acd8a3228cf398bc88bc6d1a770b400367444bca510"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\engine.py",
-    "destination": "apps\\engine\\evidence\\engine.py",
+    "source": "systematic swing trading bot/backtester/research/engine.py",
+    "destination": "apps/engine/evidence/engine.py",
     "sha256": "b48da4b4cf511520085347fd9af7ad9b99cd64be7c06e6303a1d52f804a37c79"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\experiments.py",
-    "destination": "apps\\engine\\evidence\\experiments.py",
+    "source": "systematic swing trading bot/backtester/research/experiments.py",
+    "destination": "apps/engine/evidence/experiments.py",
     "sha256": "ce72dc16139e6642b9e5d668b8ec513ce2bf7d755bf6df83927912651b878bc1"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\jobs.py",
-    "destination": "apps\\engine\\evidence\\jobs.py",
+    "source": "systematic swing trading bot/backtester/research/jobs.py",
+    "destination": "apps/engine/evidence/jobs.py",
     "sha256": "a58284260af361930017a0c66af72f852a8ac9ff168408331019378d9928b848"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\lab_data.py",
-    "destination": "apps\\engine\\evidence\\lab_data.py",
+    "source": "systematic swing trading bot/backtester/research/lab_data.py",
+    "destination": "apps/engine/evidence/lab_data.py",
     "sha256": "847254bfcd8d599d3dba82a3941da4b3cd1d4605abf17cce017ba5fee7fc6473"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\lab_provenance.py",
-    "destination": "apps\\engine\\evidence\\lab_provenance.py",
+    "source": "systematic swing trading bot/backtester/research/lab_provenance.py",
+    "destination": "apps/engine/evidence/lab_provenance.py",
     "sha256": "697f84d0dd45bede10590fd872e2f9dc078e3f81241eb07af4c5c0ee80d4320a"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\lab_ui.py",
-    "destination": "apps\\engine\\evidence\\lab_ui.py",
+    "source": "systematic swing trading bot/backtester/research/lab_ui.py",
+    "destination": "apps/engine/evidence/lab_ui.py",
     "sha256": "d2e6eeac622866d43083194556d75842107650c2396a994e88e85480b63425fd"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\market_making.py",
-    "destination": "apps\\engine\\evidence\\market_making.py",
+    "source": "systematic swing trading bot/backtester/research/market_making.py",
+    "destination": "apps/engine/evidence/market_making.py",
     "sha256": "6b12f26e82388001107961ec83455373f808d61a14a0b4ac745482df3821490c"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\models.py",
-    "destination": "apps\\engine\\evidence\\models.py",
+    "source": "systematic swing trading bot/backtester/research/models.py",
+    "destination": "apps/engine/evidence/models.py",
     "sha256": "5e96686c1b57e913b6a4bdcb10fa931ae420d76a37e6ebde61368934384db9be"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\provider.py",
-    "destination": "apps\\engine\\evidence\\provider.py",
+    "source": "systematic swing trading bot/backtester/research/provider.py",
+    "destination": "apps/engine/evidence/provider.py",
     "sha256": "092b50aae2d4b0558d79de2cbd5a363606bea249cf6921a8cb0f1dfe3f35c098"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\replay_lab.py",
-    "destination": "apps\\engine\\evidence\\replay_lab.py",
+    "source": "systematic swing trading bot/backtester/research/replay_lab.py",
+    "destination": "apps/engine/evidence/replay_lab.py",
     "sha256": "95ea4319753e2189ea8f099b2125f41aa8a0f33e505e295a00cc1a505d0b2e6f"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\storage.py",
-    "destination": "apps\\engine\\evidence\\storage.py",
+    "source": "systematic swing trading bot/backtester/research/storage.py",
+    "destination": "apps/engine/evidence/storage.py",
     "sha256": "d9bbb7fdc01ace9d62f96cebd1c4e2198c1f061cbb02bb057dba4f54d1c1e6fe"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\workbench.py",
-    "destination": "apps\\engine\\evidence\\workbench.py",
+    "source": "systematic swing trading bot/backtester/research/workbench.py",
+    "destination": "apps/engine/evidence/workbench.py",
     "sha256": "a47d4ffcfcab9952e7c1795b104899022c3f3b76361226d8fc349764b6d70b2c"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\research\\__init__.py",
-    "destination": "apps\\engine\\evidence\\__init__.py",
+    "source": "systematic swing trading bot/backtester/research/__init__.py",
+    "destination": "apps/engine/evidence/__init__.py",
     "sha256": "897d2f9fbfee5d4f0d1bbcea06f76470bb63717798533b692db2c521e86a1f11"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\examples\\costs-current-reference.json",
-    "destination": "apps\\engine\\examples\\costs-current-reference.json",
+    "source": "systematic swing trading bot/backtester/examples/costs-current-reference.json",
+    "destination": "apps/engine/examples/costs-current-reference.json",
     "sha256": "28b52d098f29ed74526baa9ce42b01f903d6e74c2113c7db8e15117fa3d32696"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\examples\\hypothesis.json",
-    "destination": "apps\\engine\\examples\\hypothesis.json",
+    "source": "systematic swing trading bot/backtester/examples/hypothesis.json",
+    "destination": "apps/engine/examples/hypothesis.json",
     "sha256": "b4bd2342f732138fc519e642c107f8913a3737721c064a9dd08d9c86f6a6faf1"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\examples\\strategy.template.json",
-    "destination": "apps\\engine\\examples\\strategy.template.json",
+    "source": "systematic swing trading bot/backtester/examples/strategy.template.json",
+    "destination": "apps/engine/examples/strategy.template.json",
     "sha256": "4ad0e03513fae6fca0493b7a0d540f096444928748572392fc428855d9ee0451"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\conftest.py",
-    "destination": "apps\\engine\\evidence_tests\\conftest.py",
+    "source": "systematic swing trading bot/backtester/tests/conftest.py",
+    "destination": "apps/engine/evidence_tests/conftest.py",
     "sha256": "4bc680dfbe3240f49549abd7102306f673b95682bfb1051a5ca39fdce9787f66"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_actions.py",
-    "destination": "apps\\engine\\evidence_tests\\test_actions.py",
+    "source": "systematic swing trading bot/backtester/tests/test_actions.py",
+    "destination": "apps/engine/evidence_tests/test_actions.py",
     "sha256": "644a92897ea49518a7743340c632b29d072bb1574f7fa6b4fe649876d5088722"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_app.py",
-    "destination": "apps\\engine\\evidence_tests\\test_app.py",
+    "source": "systematic swing trading bot/backtester/tests/test_app.py",
+    "destination": "apps/engine/evidence_tests/test_app.py",
     "sha256": "f7cd0ec6c6c17730325186fe69a614ffa15663a2aa8eea453ecf61dbf4f59634"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_cli_setup.py",
-    "destination": "apps\\engine\\evidence_tests\\test_cli_setup.py",
+    "source": "systematic swing trading bot/backtester/tests/test_cli_setup.py",
+    "destination": "apps/engine/evidence_tests/test_cli_setup.py",
     "sha256": "1749daac75b6cd32760b8fa48e3b1cf25a7b0173c0fcb40209d2a7bd717b7b0d"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_lab.py",
-    "destination": "apps\\engine\\evidence_tests\\test_lab.py",
+    "source": "systematic swing trading bot/backtester/tests/test_lab.py",
+    "destination": "apps/engine/evidence_tests/test_lab.py",
     "sha256": "749aa94a7785b1b0552cd86c7c07b0b5e099a0ccc30f40b0889562c85edb32c1"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_provider.py",
-    "destination": "apps\\engine\\evidence_tests\\test_provider.py",
+    "source": "systematic swing trading bot/backtester/tests/test_provider.py",
+    "destination": "apps/engine/evidence_tests/test_provider.py",
     "sha256": "bcfb50a8b3582428af216b23b56c77ccb8b3d54f0e4c587a91427cad42d338e5"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\test_research.py",
-    "destination": "apps\\engine\\evidence_tests\\test_research.py",
+    "source": "systematic swing trading bot/backtester/tests/test_research.py",
+    "destination": "apps/engine/evidence_tests/test_research.py",
     "sha256": "467bcdfb1074eac03cf9084027d560bd08843327d876a37c04d2938bc819385d"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\CALCULATIONS.md",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\CALCULATIONS.md",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/CALCULATIONS.md",
+    "destination": "apps/engine/evidence_tests/fixtures/CALCULATIONS.md",
     "sha256": "ab7dcb8466ebe96c5e53949c4a776022c4e4b7135ba197687b9fc5b252d85825"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\corporate_actions.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\corporate_actions.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/corporate_actions.json",
+    "destination": "apps/engine/evidence_tests/fixtures/corporate_actions.json",
     "sha256": "790fe533bd54ce68d8b974b8da7c45f175e1f784c1eeedbe9120074001182c57"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\instrument_master_excerpt.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\instrument_master_excerpt.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/instrument_master_excerpt.json",
+    "destination": "apps/engine/evidence_tests/fixtures/instrument_master_excerpt.json",
     "sha256": "febc4e3ff846941b9c6d772a991ef0e801cf5f3372de487f2ce54846910eeda8"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\instrument_master_provenance.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\instrument_master_provenance.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/instrument_master_provenance.json",
+    "destination": "apps/engine/evidence_tests/fixtures/instrument_master_provenance.json",
     "sha256": "436ec0bbbcfc4a18f12f379fad5c25cbb30e9f93281c9b517b0433031fd75b7b"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\nestle_split_prices.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\nestle_split_prices.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/nestle_split_prices.json",
+    "destination": "apps/engine/evidence_tests/fixtures/nestle_split_prices.json",
     "sha256": "57070e717607ccd77931f4fc385b69c901adc8abec67f940b582f1e555ed04c5"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\nestle_split_provenance.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\nestle_split_provenance.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/nestle_split_provenance.json",
+    "destination": "apps/engine/evidence_tests/fixtures/nestle_split_provenance.json",
     "sha256": "1ed517050be2c03947beb04d4ed0a45c47f9022526423462190ca50727b2005e"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\nse_excerpt.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\nse_excerpt.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/nse_excerpt.json",
+    "destination": "apps/engine/evidence_tests/fixtures/nse_excerpt.json",
     "sha256": "aadb411c3b446c3f8a49a0d44b5ce1855d2fd0a1af07b64ea191b49cd98b66bb"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\tests\\fixtures\\provenance.json",
-    "destination": "apps\\engine\\evidence_tests\\fixtures\\provenance.json",
+    "source": "systematic swing trading bot/backtester/tests/fixtures/provenance.json",
+    "destination": "apps/engine/evidence_tests/fixtures/provenance.json",
     "sha256": "954b3ed8de3e48b92a93ccd279ef8eefdb04bdfefc6fe10d6a32e52e3a0eed1f"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\app.py",
-    "destination": "apps\\engine\\legacy_evidence\\app.py",
+    "source": "systematic swing trading bot/backtester/app.py",
+    "destination": "apps/engine/legacy_evidence/app.py",
     "sha256": "e2c5ba8fa448dcbe07da0b23cb03732d25a24d4483ee4a23b8193f755fa49573"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\requirements.lock.txt",
-    "destination": "apps\\engine\\legacy_evidence\\requirements.lock.txt",
+    "source": "systematic swing trading bot/backtester/requirements.lock.txt",
+    "destination": "apps/engine/legacy_evidence/requirements.lock.txt",
     "sha256": "2de0ee48d84e2ba6a351d8c7aedfb0b2221090bd4fe975b4f05ed2c4143df4b9"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\pyproject.toml",
-    "destination": "apps\\engine\\legacy_evidence\\pyproject.toml",
+    "source": "systematic swing trading bot/backtester/pyproject.toml",
+    "destination": "apps/engine/legacy_evidence/pyproject.toml",
     "sha256": "3bafe4ef780473815c658adcd2f0c73b26ed6af7be974a5f08a4c555d168f6e3"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\README.md",
-    "destination": "apps\\engine\\legacy_evidence\\README.md",
+    "source": "systematic swing trading bot/backtester/README.md",
+    "destination": "apps/engine/legacy_evidence/README.md",
     "sha256": "c3216ff3530dfb8349dc62b94ac7b83af4c94c376cd224c252f293bad822df17"
   },
   {
-    "source": "C:\\quant\\projects\\systematic swing trading bot\\backtester\\AGENTS.md",
-    "destination": "apps\\engine\\legacy_evidence\\AGENTS.md",
+    "source": "systematic swing trading bot/backtester/AGENTS.md",
+    "destination": "apps/engine/legacy_evidence/AGENTS.md",
     "sha256": "301ecdc647ccd09ce7e54a1ffa1592b9e8350f190d4ca04dcb666954fc6629f3"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\components\\research-evidence.tsx",
-    "destination": "apps\\web\\components\\flagship\\research-evidence.tsx",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/components/research-evidence.tsx",
+    "destination": "apps/web/components/flagship/research-evidence.tsx",
     "sha256": "1dbde836b9e9fde1e3d75551b0ab2a9fd1e6f6c8f0dd7d877a7252ec62b9df68"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\components\\research-mandate.tsx",
-    "destination": "apps\\web\\components\\flagship\\research-mandate.tsx",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/components/research-mandate.tsx",
+    "destination": "apps/web/components/flagship/research-mandate.tsx",
     "sha256": "a4e73aeaa83d961120b11fd4fcd151dc80d218ca997adc15e8da3446aa37e6b3"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\components\\research-primitives.tsx",
-    "destination": "apps\\web\\components\\flagship\\research-primitives.tsx",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/components/research-primitives.tsx",
+    "destination": "apps/web/components/flagship/research-primitives.tsx",
     "sha256": "f8c8810c23ffadc653f948bc8e771705373d174a2d850ee87092436845d3f3fb"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\components\\research-workspace.tsx",
-    "destination": "apps\\web\\components\\flagship\\research-workspace.tsx",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/components/research-workspace.tsx",
+    "destination": "apps/web/components/flagship/research-workspace.tsx",
     "sha256": "63f862be6a9e95b3262b553d197085eb78c686bd0ee90a4218d3bd79016d8d24"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\lib\\research.ts",
-    "destination": "apps\\web\\lib\\flagship\\research.ts",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/lib/research.ts",
+    "destination": "apps/web/lib/flagship/research.ts",
     "sha256": "d1073f65270d90c384a4381e09a67e09e398a7c2dab836f26c0c37d7b3f06de2"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\lib\\portfolio.ts",
-    "destination": "apps\\web\\lib\\flagship\\portfolio.ts",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/lib/portfolio.ts",
+    "destination": "apps/web/lib/flagship/portfolio.ts",
     "sha256": "aa4fe1d1f96ac9bc9563624bf3e532af506c83f1c1c38ae3d840e0b747d0589f"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\lib\\use-portfolio-tools.ts",
-    "destination": "apps\\web\\lib\\flagship\\use-portfolio-tools.ts",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/lib/use-portfolio-tools.ts",
+    "destination": "apps/web/lib/flagship/use-portfolio-tools.ts",
     "sha256": "410c637b1ab14d5887f5a2146509ca730ffec5b86d54ee2ee993350a8430ed40"
   },
   {
-    "source": "C:\\quant\\projects\\Regime-Aware-Systematic-Equities-Trading-Platform\\apps\\portfolio_dashboard\\app\\portfolio\\page.tsx",
-    "destination": "apps\\web\\components\\flagship\\allocation-replay.tsx",
+    "source": "Regime-Aware-Systematic-Equities-Trading-Platform/apps/portfolio_dashboard/app/portfolio/page.tsx",
+    "destination": "apps/web/components/flagship/allocation-replay.tsx",
     "sha256": "da86360163343065bffe7cc5dd5c071a4d9c8d372098cc19e9c7559ab7f5537c"
   }
 ]
