@@ -1,0 +1,156 @@
+{
+  "recorded_at": "2026-09-10T18:09:32.187Z",
+  "node": "v24.19.0",
+  "platform": "win32",
+  "notes": "One local run, warm OS caches possible; not a before/after speedup claim.",
+  "synthetic_only": true,
+  "gateway_idle": {
+    "samples": 30,
+    "median_ms": 7.372699999999995,
+    "p95_ms": 14.47999999999999,
+    "max_ms": 20.78729999999996
+  },
+  "engine_startup_ms": 1739.1970000000001,
+  "memory_engine_ready": [
+    {
+      "Id": 32900,
+      "ProcessName": "node",
+      "WorkingSet64": 74358784,
+      "PrivateMemorySize64": 82980864
+    },
+    {
+      "Id": 12652,
+      "ProcessName": "python",
+      "WorkingSet64": 4902912,
+      "PrivateMemorySize64": 901120
+    },
+    {
+      "Id": 36952,
+      "ProcessName": "python",
+      "WorkingSet64": 190017536,
+      "PrivateMemorySize64": 152940544
+    }
+  ],
+  "migrated_inventory": {
+    "records_read": 32,
+    "counts": {
+      "candidate_review": 0,
+      "dataset": 0,
+      "download": 0,
+      "hypothesis": 0,
+      "instrument_master": 1,
+      "job": 2,
+      "lab_dataset": 9,
+      "lab_report": 5,
+      "mm_dataset": 1,
+      "mm_report": 1,
+      "quality_review": 0,
+      "regime_archive": 13,
+      "regime_suite": 0,
+      "report": 0,
+      "robustness_batch": 0,
+      "robustness_result": 0,
+      "strategy": 0,
+      "trial": 0,
+      "walk_forward_result": 0
+    },
+    "regime_dashboard_runs_read": 10
+  },
+  "synthetic_mm_20000_ms": 3367.7541,
+  "gateway_during_mm": {
+    "samples": 35,
+    "median_ms": 7.404599999999846,
+    "p95_ms": 16.62119999999959,
+    "max_ms": 19.368999999998778
+  },
+  "engine_health_during_mm": {
+    "samples": 35,
+    "median_ms": 62.17289999999957,
+    "p95_ms": 125.18509999999878,
+    "max_ms": 143.36349999999948
+  },
+  "memory_after_mm": [
+    {
+      "Id": 32900,
+      "ProcessName": "node",
+      "WorkingSet64": 121409536,
+      "PrivateMemorySize64": 141017088
+    },
+    {
+      "Id": 7364,
+      "ProcessName": "python",
+      "WorkingSet64": 4898816,
+      "PrivateMemorySize64": 892928
+    },
+    {
+      "Id": 23012,
+      "ProcessName": "python",
+      "WorkingSet64": 231821312,
+      "PrivateMemorySize64": 192147456
+    }
+  ],
+  "comparison_replay": {
+    "verified": true,
+    "engine": "bar-lab-v1",
+    "source": "SYNTHETIC"
+  },
+  "market-making_replay": {
+    "verified": true,
+    "engine": "mm-v1",
+    "source": "SYNTHETIC"
+  },
+  "engine_health_warm": {
+    "samples": 30,
+    "median_ms": 20.250200000000405,
+    "p95_ms": 27.836499999999432,
+    "max_ms": 34.31209999999919
+  },
+  "regime_suite": {
+    "elapsed_ms": 5078.590600000001,
+    "strategy_count": 14
+  },
+  "memory_after_regime_suite": [
+    {
+      "Id": 32900,
+      "ProcessName": "node",
+      "WorkingSet64": 122388480,
+      "PrivateMemorySize64": 141570048
+    },
+    {
+      "Id": 7364,
+      "ProcessName": "python",
+      "WorkingSet64": 4898816,
+      "PrivateMemorySize64": 892928
+    },
+    {
+      "Id": 23012,
+      "ProcessName": "python",
+      "WorkingSet64": 229875712,
+      "PrivateMemorySize64": 254738432
+    }
+  ],
+  "owner_eof_shutdown_ms": 523.6013999999996,
+  "restart_verified": true,
+  "client_chunks": [
+    {
+      "file": "allocation-replay-DCsVhVL3.js",
+      "bytes": 41885,
+      "gzip_bytes": 14052
+    },
+    {
+      "file": "evidence-workspace-D-8vp35h.js",
+      "bytes": 45587,
+      "gzip_bytes": 14450
+    },
+    {
+      "file": "research-workspace-BKforyb7.js",
+      "bytes": 42096,
+      "gzip_bytes": 12816
+    },
+    {
+      "file": "terminal-DISTTAfu.js",
+      "bytes": 240014,
+      "gzip_bytes": 69814
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm01JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:23.954580+00:00",
+      "archive_sha256": "b319abd21fbf9738f13c3aea57f7d64637051aefa734217b1df1944c4760b1cd",
+      "member": "cm01JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm02JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:24.424238+00:00",
+      "archive_sha256": "bc3f9ff6586c56248f2cfc678d7f873ac9c4a86f8a83395ebca2d91990157356",
+      "member": "cm02JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm03JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:24.572066+00:00",
+      "archive_sha256": "0554b50595b23d3048900134fcc3f028a302daf38a35aa1bcbec934a28d6b93e",
+      "member": "cm03JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm04JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:24.814603+00:00",
+      "archive_sha256": "b04c129010672d607e2d02d22abaf38824efe8192fb4583c23b679e0ef4ed630",
+      "member": "cm04JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm05JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.158786+00:00",
+      "archive_sha256": "2800250ea18fe12bb9ca36f0ba9f0737caf0e28e741c01609eab9277ff1d758b",
+      "member": "cm05JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm08JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.274373+00:00",
+      "archive_sha256": "a69ae034c21d9b9dfd52d41cce402e663a9fbf3ea949e42f6a68f9a8182bd1d3",
+      "member": "cm08JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm09JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.395729+00:00",
+      "archive_sha256": "cd7b176d74d4370f05a77678f9f3e42590046280c42c7f9efc7d83b0d87aa7ab",
+      "member": "cm09JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm10JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.545630+00:00",
+      "archive_sha256": "5bffbb4ab84e15e7c193a82d66abe59f2ea8092cc8a0ff20a560d7eb1e4b55f2",
+      "member": "cm10JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm11JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.784410+00:00",
+      "archive_sha256": "5b94cffc479a852fcb7f8290f954ccc919a8117e99252abfb376450c5d6b7ae5",
+      "member": "cm11JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm12JAN2024bhav.csv.zip",
+      "retrieved_at": "2026-09-06T21:28:25.913640+00:00",
+      "archive_sha256": "3c92525091a1bb8093840ff9da4eea4e5b4c2e3374fc587e757e6d4a67d0b55a",
+      "member": "cm12JAN2024bhav.csv",
+      "selection": "SERIES=EQ; SYMBOL in RELIANCE,TCS,INFY,SBIN",
+      "rows": 4
+    }
+  ],
+  "excerpt_sha256": "aadb411c3b446c3f8a49a0d44b5ce1855d2fd0a1af07b64ea191b49cd98b66bb",
+  "purpose": "Numerical tests only; supplemental NSE source, not an Angel One demonstration."
+}

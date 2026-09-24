@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Angel One published delivery tariff observed 2026-09-07; verify applicability",
+    "start": "2026-09-07",
+    "end": "2026-09-07",
+    "source_url": "https://www.angelone.in/exchange-transaction-charges",
+    "applicability_note": "Reference snapshot only. Effective historical dates are not established. Confirm your account tariff and date coverage before using or extending this schedule. Per-fill paise rounding and per-exit-session DP are approximations.",
+    "estimated_historical": true,
+    "brokerage_rate": 0.001,
+    "brokerage_min": 5,
+    "brokerage_cap": 20,
+    "stt_buy": 0.001,
+    "stt_sell": 0.001,
+    "exchange_rate": 0.000030699,
+    "sebi_rate": 0.000001,
+    "ipft_rate": 0.000000001,
+    "gst_rate": 0.18,
+    "stamp_buy": 0.00015,
+    "dp_per_debit": 20
+  }
+]

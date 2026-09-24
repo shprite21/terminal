@@ -1,0 +1,7 @@
+{
+  "source": "https://margincalculator.angelone.in/OpenAPI_File/files/OpenAPIScripMaster.json",
+  "retrieved_at": "2026-09-06T21:43:42.731067+00:00",
+  "full_master_sha256": "9f583ff39464ebe5cfdfabf8a9af4b1afef17454d605436dc3c998f78296d66a",
+  "excerpt_sha256": "febc4e3ff846941b9c6d772a991ef0e801cf5f3372de487f2ce54846910eeda8",
+  "selection": "NSE cash equity symbols RELIANCE-EQ,TCS-EQ,INFY-EQ,SBIN-EQ; current mappings, not historical membership"
+}

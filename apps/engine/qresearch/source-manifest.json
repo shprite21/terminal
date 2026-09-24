@@ -1,0 +1,738 @@
+{
+  "repository": "https://github.com/shprite21/quant-research",
+  "commit": "9fe70cc1c23ada39af5cda44632ec59dae7ee506",
+  "files": [
+    {
+      "path": "01-regime-aware-multi-strategy-system/.gitignore",
+      "sha256": "81a53d905c2b84200d3a48fe7ea601040b600868abb00ca8bc3b95ea8f3ede15"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/experiments/config.yaml",
+      "sha256": "72051c3536650275195f4a61f92a5bcab7d7f9f5c8cbd83873295a91f1811717"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/experiments/run_experiment.py",
+      "sha256": "d8c88dd5dbc6250798c9b0e11e3fe76156c02a6a0cdcb9c67d871b9d62d08879"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/notebooks/01_data_exploration.ipynb",
+      "sha256": "d236a46c3813f5c6c3012ca0c8e791b1d7b970989253c3ae8a04b9b8c2fc9e98"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/notebooks/02_strategy_research.ipynb",
+      "sha256": "7ba11f201f3ba95fb7ca6bd7a5a8e6672002253567c0fe5dbdc2a5451bbfa2b2"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/notebooks/03_regime_detection.ipynb",
+      "sha256": "22884e97132a6ef8505ba46db11b35df9f42f8a34e4d3d71c22e97b7808cf4ad"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/notebooks/04_results_analysis.ipynb",
+      "sha256": "672672a413358009d572a8ca1655c05d7b6082de3f8e464b6cd2bf5b68b7ebf4"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/active_return.png",
+      "sha256": "421bf2845e4beb3a74420fe04ba7e420a9fc553078b21ed3d8173851217a0b44"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/annual_returns_bar.png",
+      "sha256": "a448988430c25145dc3cf618d094f33a2c3b2480bc373ca1369665443495911a"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/autocorrelation_plot.png",
+      "sha256": "98ad3549556f6159fe728b6f1ae889bc6b85aab3a212abc174bca811370abc4b"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/capture_ratios.png",
+      "sha256": "71ce2d29685f513df3e77ac39ac84e2fca50a4ef34d1ae5898b031e2a3731973"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/cointegration_test_summary.png",
+      "sha256": "3a02f9eecad4b5578524f261d420b01eeb965d088dcd44581ecbfff25abd3438"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/contribution_to_return.png",
+      "sha256": "f553eda749db61fa2c482cad2ff0d7ed52b23215fa74c97b9a5639ce0f09eac0"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/cumulative_returns_comparison.png",
+      "sha256": "d06478afed17deafdb5be0870a3e2b66710faf156ad578db1b0ddb9eaa71ed05"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/drawdown.png",
+      "sha256": "206149da39a0b03e68012f1127a44f178026275831f6301ba9fce15ebaaeb163"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/drawdown_duration.png",
+      "sha256": "28a1ad71a270656caece76b7484dd71ead0a2d67ed6d2f7ba0aa4d0224e27866"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/dynamic_strategy_weights.png",
+      "sha256": "df5feb5f8d1bb14e6c3eee65e960d02197e19922beb7da81f060c30a8e7dc36e"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/equity_curve.png",
+      "sha256": "6fb8619ea1f7fa8f094e627e6930f7e47a21b083267990a8bfd5badf0f7e9e73"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/hedge_ratio_through_time.png",
+      "sha256": "8a9e691995b95e80085317187b195bba61cd9880aa204cde7925cbe8f4cb3909"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/hit_rate_by_month.png",
+      "sha256": "7b19b89585db00b7cf9a8e3e82f07086d14eba77a60d2f860bd96f71da9b29bf"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/mean_reversion_half_life.png",
+      "sha256": "01b973d64d9f81d9de0e498e0872af14a278b9c95d21a2249f8f88d72e4a8e60"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/monte_carlo_equity_simulations.png",
+      "sha256": "0d85a24ca493b5e2f4a7319be662447698c680feec66835ab22156a68babe387"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/monthly_returns_heatmap.png",
+      "sha256": "80e78c5334e322e92d21b5b52c91943d838f56896647bac2214fa5ced4dc5d73"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/position_exposure.png",
+      "sha256": "96a77294cc4b81b2406079191099386a9ab69696fed4c6c1733ed3dd1c585916"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/probability_of_loss.png",
+      "sha256": "048dfa3b692ce3a36514ce46d04040c85f0ae02488b02a9639ef3e5228d308f4"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/profit_factor_by_year.png",
+      "sha256": "c6e66e814b14037fcfeb1ffe7db30ee07705814488c350c67f336b9a3c8334af"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/qq_plot.png",
+      "sha256": "1e799e44e0334921eaee6f1c33dffd36b01ab0a7a9578d77934e44dc67a84635"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_classification.png",
+      "sha256": "b88694b46646f737c108286c2a808a22b9fa8b40a504405b6194af9fc38cd844"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_duration_distribution.png",
+      "sha256": "ea44c18ab7da88c9ac628c5cf4dbd0b669b5fc53dcede1a984206b7cebd021d9"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_frequency.png",
+      "sha256": "823ddd9a564bc01a5ed8eceddf56c87f3a192a602e5b8176ef3dbc8198ce2798"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_overlay_on_price.png",
+      "sha256": "748d2b0f6e5acddccc73ce5f58b9a87e4eb7ee586d601d487823c8f23849ba7e"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_specific_return_boxplots.png",
+      "sha256": "39fbbcd91eb74b12216ca61e0cd44b249d11540a4a7d84f1e150bd2778cfbef0"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/regime_specific_sharpe_ratios.png",
+      "sha256": "cb57e2ff47e85b183f38254b20a9a8f9d81a6e34e8b15f59cd5cb0847a43a533"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/return_distribution_histogram.png",
+      "sha256": "fc8fa64bda18d2e29411300da0b3c8609beb580f3505d6a2a519aefcdbc56fd0"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/risk_contribution.png",
+      "sha256": "f99850c44572e17f276415f1e7f90f95e69962abbedfa70b8a2bb0f1aa1019e9"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_alpha.png",
+      "sha256": "12ca0f679a7abb67287ea28e2c9147c0a180c2a467ee683a5d9f560fe7a630fc"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_beta_vs_benchmark.png",
+      "sha256": "95a02f4fac51f985d59279cb5534472b8d73133439cea8bfbf6fef69fec1de6f"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_correlation_matrix.png",
+      "sha256": "386b62970296bb6aec856878db43e2c81284f9ae32a92541654d717b8c7157c3"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_information_ratio.png",
+      "sha256": "64fb0b2f569d4431e6ecfcb59a181a1ad73d581f26362c6e909ff53c890dbe04"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_sharpe_63d.png",
+      "sha256": "9347cc63daaba173dc2b878aed8798937f534056725815a2528f454685ab6f94"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_sortino_63d.png",
+      "sha256": "e2b2af483bbc826c8773d02b02880104afb4f3eadc071b818653c17053772d60"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_var_95.png",
+      "sha256": "0a836ec9d605110b55562d44dab03e9e0e728408f328b17e19ed0138934d1707"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/rolling_volatility.png",
+      "sha256": "c3577c0b084259c2944fc24488b406940bc892745f15165f8ea26508e3a0a206"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/signal_plot_mean_reversion.png",
+      "sha256": "8b0041153e11d2b48897dafa9de2d3e3712135c061beb581cc6273be423ded2d"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/signal_plot_momentum.png",
+      "sha256": "ad016388341375c2fc4b8e199017e9b8124612366388150f8141bec8447fc508"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/signal_plot_pairs_trading.png",
+      "sha256": "680e572f38cc71647d71b9f4f83a7e8f0fcd295297ec115e86785de0afa938cd"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/spread_time_series.png",
+      "sha256": "a30bb5ca2f5cac3472584caefcea981d0f1201555f9e0ace0d37926bd459c4e3"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/spread_zscore.png",
+      "sha256": "517cf8d7e11de15680c3666307c99ad0028e1b58097a0e62df4b9dc894f1edff"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/strategy_correlation_heatmap.png",
+      "sha256": "9d037db8b16ea694e0c83e0a1c167504f538fa497eb285e7ca1559ac7b2dfa68"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/strategy_cumulative_returns.png",
+      "sha256": "0677f9548a3830f6201bb9af6e0dd0ca148df9377848b2b73cb75e257279a954"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/strategy_performance_by_regime.png",
+      "sha256": "1d27280aeec32ae5cc4010fc5ab3eb8d5d294c2e6e0892634351700b34f67a71"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/stress_test_scenarios.png",
+      "sha256": "7e153a75b1343d68d41c17997d60caeb51962189557d865e6250190cd6846038"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/terminal_wealth_distribution.png",
+      "sha256": "02b45d62fc8b838733f297323ef19b95f7740233a4de3f47e49bf75e85ea4cf8"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/tracking_error.png",
+      "sha256": "7181e05ef261049c39c1b25c3a046b1c3c69201f3c21d2d5090ac2027d659990"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/trade_duration_distribution.png",
+      "sha256": "af2c50c3aa28e86c1712dfcbabcc049cf154ce49260436eb7095c38187d52422"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/trade_return_distribution.png",
+      "sha256": "9b8a90675f087938461c08c7124501fd65c2a1e4583938281549eb7f73d53ede"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/transition_matrix_heatmap.png",
+      "sha256": "997996b8739d59016c8a415cca3cca855e6c4174dfc5c60e0ad44afd3e670000"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/turnover.png",
+      "sha256": "c1eef3374aa6eedd996fd57f3c4b4ac4484df6f9f40549ebfc88cc4521832524"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/underwater_plot.png",
+      "sha256": "39372163c5c2cdb1bcf4b7763a534d7bcf00e09c6d4405411b8c8f654d1f6a0d"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/var_cvar_distribution.png",
+      "sha256": "0f5435ede07e935386dcc65c3dfaf47ca599e7582be129cd4e425d4b1a61f93e"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/outputs/figures/worst_drawdown_table.png",
+      "sha256": "e242a1ea64a6f548bf48387d35f2818921f0b58bc142445cd925abd2a4b666ac"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/README.md",
+      "sha256": "78d2894fa14aba9dd88ba8c78e510d30caa6c0c0cca104dad4e8283e0e45937f"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/requirements.txt",
+      "sha256": "cc0782bf3813b780a3314fe7b647ec4c59fd446b3e9da2edbbd86d815d224672"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/setup.py",
+      "sha256": "0e73b8d723841dd0e807f12a8a9bccfaeeb61dcb959b14901e99deff61776324"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/analytics/metrics.py",
+      "sha256": "d39ad145d1e0e9e5cc842db47a1e680d0e6b94bbba7e974e7eba5f561d6e1ec8"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/analytics/plotting.py",
+      "sha256": "d87f5469476e43f8dfeac7866a9b37d9207a3a67db8e849e2347699c46a3d87d"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/backtester/engine.py",
+      "sha256": "805890223a49754f90d09aed3f6158dd2dc5dce466e08df200852aa44a4f4293"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/backtester/portfolio.py",
+      "sha256": "2d409658b69db6c9c4fa47dc50f10e14a8f6a54104c3e190e58e786882dad337"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/data/loader.py",
+      "sha256": "a5283ab7ef741dbd7bfd2ede236430081f430c6618a3e09ce12eadaa09301b55"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/data/preprocess.py",
+      "sha256": "8b407c8b9a7fa99d577c235732b3cdcff39c58c3a516d0ba7bede6a4853dd349"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/regime/hmm_regime_detector.py",
+      "sha256": "837271ba8138a4fcbfeb48a409ff6c41648844796966dd8ab62359dd67abc905"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/strategies/base.py",
+      "sha256": "c859aefd569366be80966132a74588cb6654a1156f7fc605dd11755800933c60"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/strategies/mean_reversion.py",
+      "sha256": "30ed7e017b63ba60245f0eabb9e26b063ddc8e9dc197691ecbfd56fdbc6e166b"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/strategies/momentum.py",
+      "sha256": "55e87724f323edaa2f9314fbc67456f696fc575689e10a83eacdb1eab6c7231e"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/strategies/pairs_trading.py",
+      "sha256": "09b70aec68dbc54090741ba2a2bc937a61d7b188ccef5a10fffd834199e64d9d"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/src/utils/helpers.py",
+      "sha256": "896dde3adcb1d2e3b91f3eed3e6299c9de3f37e8f1a23fbbd4ac6fdd4b4031f7"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/tests/test_backtester.py",
+      "sha256": "dba07b181321f45845d3618d90b3dccf979789bcd4636f1c313e6ad8b9b7cb05"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/tests/test_metrics.py",
+      "sha256": "ad2146143109a60a2708a672c4f95588c2db70843a0694aa88ea8c2a8df3d277"
+    },
+    {
+      "path": "01-regime-aware-multi-strategy-system/tests/test_strategies.py",
+      "sha256": "8092401f4ddae8116b7873f2ea0a28c7216f8dbf833bec55f5cee01e5d25f9d9"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/.gitignore",
+      "sha256": "644420b9af4717c4ebb7ecf359d07471532e5495f7ddad6d32a5f6147e239785"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/configs/strategy_config.yaml",
+      "sha256": "354f9dea89cb5287551c2e94448876849489bee4efea380d79058f0c5f479c52"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/main.py",
+      "sha256": "bd544964d23ad28e2e7a986ec65f4dbc155ac3b3f4160833efaf598ef94d2f2f"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/notebooks/exploration.ipynb",
+      "sha256": "c209922e25629b61982d8f823564f993bb5a78d0efc12aebef76ef45441ee954"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/notebooks/optimization_analysis.ipynb",
+      "sha256": "8e6c01ac448f4b601617a0c212ffa3e17c34bf15607ec24b69370b50be231c19"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/README.md",
+      "sha256": "50ffefce06aec013df71a009f13a4f1113a3e535635b1e832021bffe96305218"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/requirements.txt",
+      "sha256": "443f18f882199c03d5ac44872159c4574a77abbca05e4da75daf7b0c777f41cd"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/results/figures/equity_drawdown.png",
+      "sha256": "f917b03fbb3c5c88c63ca12fc702fa673b8eddecbd10c426efbc08c2ea4d6ab7"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/results/figures/optimization_history.png",
+      "sha256": "c448b419baabd50fe275eb3ef972b41959cc080c7afc620b3686cc0666576d86"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/results/figures/spread_zscore_signals.png",
+      "sha256": "1c4b8568996798199aeec4519d45466b00a8a0480d2b664c247b15b3a65b0c9c"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/__init__.py",
+      "sha256": "071af8de77e0a2bdebcbc5f0f4cc78024957b6d1d7b83ebc284dff5f206af15c"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/backtester.py",
+      "sha256": "8571437e4b616e588ca76aafda9ebf5b07050cd871a975247e44233f0fe1fb10"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/cointegration.py",
+      "sha256": "be8f78a1c3c030a17b8c4de2c70bb6338ad8dc2acb5128143bf39a45ec617b16"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/data_loader.py",
+      "sha256": "fcb3d376461c17c9cf765e7d578dd7ea84e6cc431c6a60bbfbde1b9a2e01af8b"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/metrics.py",
+      "sha256": "effd536e47a952e45a099a357b4ea455900f6d6be11c6af9841989cabc4a5257"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/optimizer.py",
+      "sha256": "a7e0c9c8363a4f24c778d2bcf04c236d8ef550c8ba4f0f816767d26c0facd2db"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/signals.py",
+      "sha256": "a3744b1cb1d7870c0eb3cf34b76e1d79f31a14f528cb16683ef58ff277e2e527"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/spread_builder.py",
+      "sha256": "df5e9b54850683028abc4c2ddb6fcaf18f5b1a7e95750570e22a2e207500ac18"
+    },
+    {
+      "path": "02-bayesian-stat-arbitrage/src/utils.py",
+      "sha256": "50b557370a43cf46406d6d793cc968fba4679cd82ff19ec472724fb60c6e1e1e"
+    },
+    {
+      "path": "03-market-making-system/.gitignore",
+      "sha256": "d6d8269c918c6a12c0c80e3a597de1b5659876f5a65d06c78d9d70ae2804bbef"
+    },
+    {
+      "path": "03-market-making-system/cpp/benchmark.cpp",
+      "sha256": "66330138e59a26d30ac9711bdca183c4417bc819c49c0d0194dc1280dfcbe32a"
+    },
+    {
+      "path": "03-market-making-system/cpp/black_scholes.cpp",
+      "sha256": "71c7116ee603dc7961ebb0211b9606bfc87f4261f28d82369eadd97259289157"
+    },
+    {
+      "path": "03-market-making-system/cpp/greeks.cpp",
+      "sha256": "2c15ce51b4a1358f1024e1ac97dfe507f449c78ae2aa358e2a33b0370d5b6d08"
+    },
+    {
+      "path": "03-market-making-system/cpp/Makefile",
+      "sha256": "dd12a5de9d57a32d244bfa7947e84aa51e071d5f7628047dc42be383f7d4453a"
+    },
+    {
+      "path": "03-market-making-system/data/.gitkeep",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "03-market-making-system/notebooks/analysis.ipynb",
+      "sha256": "1e5dddaea03fb7e2e66f7df7296267e2da7a8e93b1edc69179a4b3286aa70282"
+    },
+    {
+      "path": "03-market-making-system/plots/cumulative_pnl.png",
+      "sha256": "2fd79f1394d159a2d97b9dbbc7a05a490f531d602c4ea40fea3cb1c52ae529de"
+    },
+    {
+      "path": "03-market-making-system/plots/hedge_error.png",
+      "sha256": "b6dfc9988afd9e63c03d1d95e87adfe4810a0207ecad59ee608ba1600e88e77e"
+    },
+    {
+      "path": "03-market-making-system/plots/inventory_exposure.png",
+      "sha256": "f8ae4c87a5f19ad3827fafdc564586600ecf960a31f54327fdb47ed0c13911b8"
+    },
+    {
+      "path": "03-market-making-system/plots/market_making_dashboard.png",
+      "sha256": "2a5b53eb2a0ce6ce1a6c7a8b9da5ca3c6f971ba5f1e771d641ba71707b747bea"
+    },
+    {
+      "path": "03-market-making-system/plots/option_trade_prices.png",
+      "sha256": "ad910cda51086a23f5033461704a54e7f7e7b82d6e9b8003bef0b5fb6dea70f7"
+    },
+    {
+      "path": "03-market-making-system/plots/pricing_benchmark.png",
+      "sha256": "533d2af161a5693d506a6b714bf34d57995759a2ac358c5272ecbe140afe51d6"
+    },
+    {
+      "path": "03-market-making-system/plots/realized_volatility.png",
+      "sha256": "111dd3a3c690e6c6eed80a979820d91da03b3ee52b81fc52b352686322669af4"
+    },
+    {
+      "path": "03-market-making-system/python/__init__.py",
+      "sha256": "343830afae42ed2e8b4496804f231a4b1241580065bd6641c43c20ad7f5c3bae"
+    },
+    {
+      "path": "03-market-making-system/python/benchmark.py",
+      "sha256": "7369bcb33e229b574029813c0263edaf89f67526f23b53ee43d0d18dd176a23a"
+    },
+    {
+      "path": "03-market-making-system/python/black_scholes.py",
+      "sha256": "ed1050d6c861e69116a35cb7f7f778bea56be1f0255337846ed70cadf72052dd"
+    },
+    {
+      "path": "03-market-making-system/python/delta_hedger.py",
+      "sha256": "232cdb4083619173f4518d718305cc006d04d64b437c4890fbe76e5840b01130"
+    },
+    {
+      "path": "03-market-making-system/python/gbm_simulator.py",
+      "sha256": "3c16b7fe2089c629a1cdb8b785abed06d613f49157bcb89111dcd77b15ada52b"
+    },
+    {
+      "path": "03-market-making-system/python/greeks.py",
+      "sha256": "a0db941ce1dc5291b29f1102b5cbebb73a595533a82c54250deaf7d82426637e"
+    },
+    {
+      "path": "03-market-making-system/python/market_maker.py",
+      "sha256": "41b385560b7d5ec2a17a02ab625ca847f5924d9633e7f583194ca746803c3384"
+    },
+    {
+      "path": "03-market-making-system/python/order_flow.py",
+      "sha256": "6883324844b956bd7a47954a3732718c62f41447c10206a7844f790b86314795"
+    },
+    {
+      "path": "03-market-making-system/python/pnl_analysis.py",
+      "sha256": "300976c042776a02e84fca8a2156ab9cd4a0e96d645b52dbc330f5cdb963eef9"
+    },
+    {
+      "path": "03-market-making-system/README.md",
+      "sha256": "d7bbe152646889eeab93e8de296f6b68f4e8c74a42479e90e90ebe2c18673ac5"
+    },
+    {
+      "path": "03-market-making-system/requirements.txt",
+      "sha256": "17a525abe0c3990e36dcf4160c5d18450c6c43aee366899991eb5c9ab13386d2"
+    },
+    {
+      "path": "03-market-making-system/results/benchmark_results.json",
+      "sha256": "e7015ca4fa887bf98e9a25f1d0d238ac851854cfce13519d77aa438833c57209"
+    },
+    {
+      "path": "03-market-making-system/results/gbm_stock_path.csv",
+      "sha256": "53ec79e8b555271ac84247194b1d757326a3ead7ef920bd2f5fc7a5ee9390d51"
+    },
+    {
+      "path": "03-market-making-system/results/hedge_trades.csv",
+      "sha256": "0a71d25430d46e9d7f659650ef119ec43ff6aaea697294cda4307f79443c4b2c"
+    },
+    {
+      "path": "03-market-making-system/results/option_trades.csv",
+      "sha256": "a3806c852f76fb0ac9d4c339e54a9c179abe8bb33b553a0e9960bd3ac3d0c2a7"
+    },
+    {
+      "path": "03-market-making-system/results/risk_metrics.json",
+      "sha256": "6a7f7fb506de54f66704278f64020f57d7a31ae44b27309b311426c44cf42725"
+    },
+    {
+      "path": "03-market-making-system/results/simulation_state.csv",
+      "sha256": "f5ff3d7ae88cec687f879d7692e672e0bf8b0c126c203b15209004ea6ae07004"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_1_monte_carlo_risk/montecarlo.ipynb",
+      "sha256": "0ca96069c89ce54cc0508ebd7f1cdaa79ca7b8d3680940e4c678a618598f7e1a"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_1_monte_carlo_risk/montecarlo_2.ipynb",
+      "sha256": "344c2480d12d6729c20bcd428cfee604dc8fa1019b7d4688df5f3f61c6ad1ef0"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_1_monte_carlo_risk/README.md",
+      "sha256": "5b67aab2fa091d6e9f404923d3217677fb6088d3301a177053297f391d035853"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_2_portfolio_optimization/efficient_frontier.png",
+      "sha256": "69c08cf0943ecee7fe6a3170774efdfd2cc51a6d3e78c3cf024fe1bf3e0ce67d"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_2_portfolio_optimization/MeanVarianceOptimization.ipynb",
+      "sha256": "ea88a22b5aae40c1b162bf6745800b7b97353e1a0959bc74288565d45f5f3198"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_2_portfolio_optimization/MeanVarianceOptimization_2.ipynb",
+      "sha256": "f58595746c7d2260ac45ac882efb8d3ddfcaab27dfd49168096a1f826d07aa27"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_2_portfolio_optimization/README.md",
+      "sha256": "5a71028a1013393d9d812b8a835ffa2e44538f8459abc5ffa13d112ad10e694c"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_3_arima_forecasting/ARIMA.ipynb",
+      "sha256": "7058027cb7238b6ce64a7f0d02b990612544da102b6ee2a7f7528b2bcf092858"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_3_arima_forecasting/ARIMA_2.ipynb",
+      "sha256": "066bf4fb76db68826d5c4d448f37926b96f2a164805b644610d872d65bf76393"
+    },
+    {
+      "path": "04-quant-finance-modeling/project_3_arima_forecasting/README.md",
+      "sha256": "e55d869e0cce118c78fc4210de27cba719b3e69c93f5de20d8d85a408364d61a"
+    },
+    {
+      "path": "04-quant-finance-modeling/README.md",
+      "sha256": "36b9a2adfee271ad5c7958db39065638df0aefbd547d45f8ec691cbd680f0233"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/.gitignore",
+      "sha256": "de08c53056e652450e176fb6fbe66a0cdf44d183f3ba511835250f21667845d0"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/dashboard.py",
+      "sha256": "baced23963c2a05edcbbab99e47046ebbbd96d29bab312689a839ed15a9610df"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/launch_dashboard.py",
+      "sha256": "bbba11d0fd5afae8de38ea44e38741a6443b06ea4005204443f4086903b59772"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/market_regime_detection.py",
+      "sha256": "85b850d3230106e1a91b6e794720f39438498d6e9bf55ac952921570ebfaa843"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/README.md",
+      "sha256": "f99a53bc393e0f8c707f50cf3a5871028d2445ba872266f38abf61c536f01334"
+    },
+    {
+      "path": "05-ml-regime-trend-prediction/requirements.txt",
+      "sha256": "db4c1e8a125914e006a7fd4313a1d781a2e5f14bc0a25d5f8f7d98e426902028"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d6b570146ff117faec13f1cc0812b636c5a126fbaa668a7a013b198bbd66a507"
+    },
+    {
+      "path": "student systematic futures and options venture/.gitignore",
+      "sha256": "c6ca7a35713b03cab16f86029dc2db0b72497027de161658a87ac4fd4854dcc0"
+    },
+    {
+      "path": "student systematic futures and options venture/config/parameters.yaml",
+      "sha256": "5d2b01e87db27d0c9942aac0648075b3ee858536dd8736ec012326f467d751bd"
+    },
+    {
+      "path": "student systematic futures and options venture/data/processed/.gitkeep",
+      "sha256": "b2603fbf717f5ac6e6e9d140eb274f39837072a438c5191d9c7de607c135c4d7"
+    },
+    {
+      "path": "student systematic futures and options venture/data/raw/.gitkeep",
+      "sha256": "b2603fbf717f5ac6e6e9d140eb274f39837072a438c5191d9c7de607c135c4d7"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/01_data_collection.ipynb",
+      "sha256": "a1e9a5a71bf09d576fa03cbe4688791a516441f620ad698269ed3519a82a6709"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/02_feature_engineering.ipynb",
+      "sha256": "d607a633dd3e3e94e414b2eed5168d21aeec80aafedc3c0d758018e9ede82f0e"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/03_regime_detection.ipynb",
+      "sha256": "8b453904f813b3b2f639c74684538398f520ca5e8ac20598b3a74e474531cee8"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/04_signal_generation.ipynb",
+      "sha256": "de9a9c64552a87f7142543e85e4b3f08a549cf734a99a391e6f72ede5e66fd04"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/05_strategy_selection.ipynb",
+      "sha256": "2bb4ca4e46ec3fd0872f9f53208990772422c6cc57c8dd9850bbabcb5f4401e8"
+    },
+    {
+      "path": "student systematic futures and options venture/notebooks/06_backtesting.ipynb",
+      "sha256": "15b7b10d19f3d8981dea3f71bd66b65e79d8bd85286140ec6b8866581160d909"
+    },
+    {
+      "path": "student systematic futures and options venture/README.md",
+      "sha256": "a09344a0ca96e9becfb8d198fea4d78d3a12d71e7994212ace6c719414790ecf"
+    },
+    {
+      "path": "student systematic futures and options venture/requirements.txt",
+      "sha256": "59554eed971befead94bdeb0e1239d659e31bd11a840b4b9845fc56eb7775051"
+    },
+    {
+      "path": "student systematic futures and options venture/results/figures/.gitkeep",
+      "sha256": "b2603fbf717f5ac6e6e9d140eb274f39837072a438c5191d9c7de607c135c4d7"
+    },
+    {
+      "path": "student systematic futures and options venture/results/figures/example_drawdown.svg",
+      "sha256": "48afe27338e9342ef44f2c3053d05a1c7cd42d5df71789d10b3f34647c9af44e"
+    },
+    {
+      "path": "student systematic futures and options venture/results/figures/example_equity_curve.svg",
+      "sha256": "fada221362eda363497f577301212de0aad8b8792328cbf1d86c9c622d2c6834"
+    },
+    {
+      "path": "student systematic futures and options venture/results/reports/.gitkeep",
+      "sha256": "b2603fbf717f5ac6e6e9d140eb274f39837072a438c5191d9c7de607c135c4d7"
+    },
+    {
+      "path": "student systematic futures and options venture/results/reports/example_research_summary.md",
+      "sha256": "21c083685d22564d0f9a72ea97d76fe8e5eb148e3455906317d556e85b9ecf4f"
+    },
+    {
+      "path": "student systematic futures and options venture/results/tables/.gitkeep",
+      "sha256": "b2603fbf717f5ac6e6e9d140eb274f39837072a438c5191d9c7de607c135c4d7"
+    },
+    {
+      "path": "student systematic futures and options venture/results/tables/example_backtest_metrics.csv",
+      "sha256": "6468559faf54d918713c55e1bcedeb18b59e35123338bd26abc3056aaca46076"
+    },
+    {
+      "path": "student systematic futures and options venture/src/__init__.py",
+      "sha256": "d3674e2a20182899c57700323c6eeafce34f3f486a6679cbd27bdb4ce48e88da"
+    },
+    {
+      "path": "student systematic futures and options venture/src/backtester.py",
+      "sha256": "18697ca68ffbe11d9c2e1bd9510eb11075dc2d49aff8bbf0a13f86574dc8ac70"
+    },
+    {
+      "path": "student systematic futures and options venture/src/data_loader.py",
+      "sha256": "1fdf0620fc3fa18ef95b368454c18a6bf8b6052f3b072265828d929f01eecb3a"
+    },
+    {
+      "path": "student systematic futures and options venture/src/features.py",
+      "sha256": "9b90090a1d60351b8cbe10a8b5e1a519a9723c59a77f0c1521f91af8fa8c2b0b"
+    },
+    {
+      "path": "student systematic futures and options venture/src/options_strategy.py",
+      "sha256": "78c27632c7497620a11245ee58560da3c2ae0332749f21b15b0fda704ffefd09"
+    },
+    {
+      "path": "student systematic futures and options venture/src/performance.py",
+      "sha256": "376879d9dbe7add7df8d9d488cbf94fea2592cf2c5d8a914db9693f2c1e217d0"
+    },
+    {
+      "path": "student systematic futures and options venture/src/regime_detection.py",
+      "sha256": "82de486b7c721d337add8b296fca505025d9e8a296f96360facf70827c3f3685"
+    },
+    {
+      "path": "student systematic futures and options venture/src/risk_management.py",
+      "sha256": "9cc45eab24f5a585ef8cb272c8574f00451f2211c90f3fc858c816dae072ee6f"
+    },
+    {
+      "path": "student systematic futures and options venture/src/signal_model.py",
+      "sha256": "534f6aed189f8b7a9afd921f759d7736e7b60c3da81b59712fd4abad5511f6a1"
+    },
+    {
+      "path": "student systematic futures and options venture/src/utils.py",
+      "sha256": "a633f2c9e6b79ff1c0f1da251c84be0e3efce4c4bf6b0b1dc293787077211e44"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/conftest.py",
+      "sha256": "125b928d189a0790694b48fdc4a34151b3d2fac21c09c9ba0c011aee60c9d07f"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_backtester.py",
+      "sha256": "b92d1a54ef44a1831b51a91eb4b692933fe820555604725957b2c3cbd48c0b46"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_data_loader.py",
+      "sha256": "1d38f3b70f3698ce045245d8a0ce48adb9e29b41a97126b8baea80d8583afc7c"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_features.py",
+      "sha256": "3b8fa186f36ffb8050513a8cdecb1d5f4088efc8ad0f8d1de1e5d6723c76e224"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_performance.py",
+      "sha256": "9d107b63e471ae8658c44478aca075cd1d1c0568d9b3e0b656a22ff56af6bf72"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_regime_detection.py",
+      "sha256": "10136a08e565106f9a7b9ca1cd5acb33bcfa15f0c06402eb5f3a9ef1b5370d5a"
+    },
+    {
+      "path": "student systematic futures and options venture/tests/test_signal_model.py",
+      "sha256": "aff0a632194f32918c663479ef43966538156b549b5b3b85c11edfc740b2ae65"
+    }
+  ]
+}

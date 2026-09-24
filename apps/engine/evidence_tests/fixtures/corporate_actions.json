@@ -1,0 +1,23 @@
+[
+  {
+    "instrument": "NSE:NESTLEIND",
+    "kind": "split",
+    "ex_date": "2024-01-05",
+    "available_at": "2023-12-23T00:00:00+05:30",
+    "source_url": "https://nsearchives.nseindia.com/content/circulars/CML59895.pdf",
+    "source_note": "NSE listing circular dated December 22, 2023: face value Rs10 to Re1 effective January 5, 2024. Availability conservatively set to the next calendar day. Old/new ISIN linkage corroborated by NSE CMPT60087.",
+    "real_data_attestation": true,
+    "quantity_multiplier": 10
+  },
+  {
+    "instrument": "NSE:INE467B01029",
+    "kind": "cash_dividend",
+    "ex_date": "2024-01-19",
+    "available_at": "2024-01-13T00:00:00+05:30",
+    "source_url": "https://www.tcs.com/investor-relations/dividend-payment-details",
+    "source_note": "TCS FY2023-24 Q3 interim Rs9 and special Rs18 consolidated to Rs27; ex-date January 19, 2024, payment February 5, 2024, announcement January 12, 2024. Availability conservatively next day.",
+    "real_data_attestation": true,
+    "cash_per_share": 27,
+    "pay_date": "2024-02-05"
+  }
+]

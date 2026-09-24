@@ -1,0 +1,54 @@
+[
+  {
+    "token": "1594",
+    "symbol": "INFY-EQ",
+    "name": "INFY",
+    "expiry": "",
+    "strike": "-1.000000",
+    "lotsize": "1",
+    "instrumenttype": "",
+    "exch_seg": "NSE",
+    "tick_size": "10.000000",
+    "freeze_qty": "85202",
+    "is_cas_enabled": true
+  },
+  {
+    "token": "11536",
+    "symbol": "TCS-EQ",
+    "name": "TCS",
+    "expiry": "",
+    "strike": "-1.000000",
+    "lotsize": "1",
+    "instrumenttype": "",
+    "exch_seg": "NSE",
+    "tick_size": "10.000000",
+    "freeze_qty": "39798",
+    "is_cas_enabled": true
+  },
+  {
+    "token": "2885",
+    "symbol": "RELIANCE-EQ",
+    "name": "RELIANCE",
+    "expiry": "",
+    "strike": "-1.000000",
+    "lotsize": "1",
+    "instrumenttype": "",
+    "exch_seg": "NSE",
+    "tick_size": "10.000000",
+    "freeze_qty": "67662",
+    "is_cas_enabled": true
+  },
+  {
+    "token": "3045",
+    "symbol": "SBIN-EQ",
+    "name": "SBIN",
+    "expiry": "",
+    "strike": "-1.000000",
+    "lotsize": "1",
+    "instrumenttype": "",
+    "exch_seg": "NSE",
+    "tick_size": "10.000000",
+    "freeze_qty": "92306",
+    "is_cas_enabled": true
+  }
+]

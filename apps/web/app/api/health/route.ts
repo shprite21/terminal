@@ -1,0 +1,1 @@
+export async function GET() { return Response.json({status:'ok',product:'Q21',mode:'real-data-research',liveExecution:false,integrationStatusEndpoint:'/integrations/status',marketDataEndpoint:'/integrations/market/catalogue'}); }

@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm01JAN2024bhav.csv.zip",
+      "sha256": "b319abd21fbf9738f13c3aea57f7d64637051aefa734217b1df1944c4760b1cd",
+      "retrieved_at": "2026-09-06T21:48:26.560496+00:00"
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm02JAN2024bhav.csv.zip",
+      "sha256": "57b5654df0e22a7de324748cd6606ed538d477b85669fcc34c0c7c24963741eb",
+      "retrieved_at": "2026-09-06T21:48:26.768823+00:00"
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm03JAN2024bhav.csv.zip",
+      "sha256": "0554b50595b23d3048900134fcc3f028a302daf38a35aa1bcbec934a28d6b93e",
+      "retrieved_at": "2026-09-06T21:48:26.878093+00:00"
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm04JAN2024bhav.csv.zip",
+      "sha256": "a70421e7ec530fa4333b514587f2aa4de267697a434545651bd0a9190e604291",
+      "retrieved_at": "2026-09-06T21:48:26.997139+00:00"
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm05JAN2024bhav.csv.zip",
+      "sha256": "999be72e8d8bc6ffff1f0d0c494d32cc767ab1d4bd007eef44ff78e6fa2393cf",
+      "retrieved_at": "2026-09-06T21:48:27.128986+00:00"
+    },
+    {
+      "url": "https://archives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm08JAN2024bhav.csv.zip",
+      "sha256": "a69ae034c21d9b9dfd52d41cce402e663a9fbf3ea949e42f6a68f9a8182bd1d3",
+      "retrieved_at": "2026-09-06T21:48:27.247867+00:00"
+    }
+  ],
+  "excerpt_sha256": "57070e717607ccd77931f4fc385b69c901adc8abec67f940b582f1e555ed04c5",
+  "action_source": "https://nsearchives.nseindia.com/content/circulars/CML59895.pdf",
+  "mapping_source": "https://nsearchives.nseindia.com/content/circulars/CMPT60087.pdf",
+  "note": "Nestle India 10-for-1 face-value split effective 2024-01-05. Old ISIN INE239A01016; new INE239A01024. Stable test instrument NSE:NESTLEIND spans this documented mapping change."
+}

@@ -1,0 +1,14 @@
+.tools/
+.data/
+node_modules/
+dist/
+.wrangler/
+.env*
+!.env.example
+*.log
+.venv/
+__pycache__/
+*.pyc
+.flagship-backups/
+*.tsbuildinfo
+.sources/

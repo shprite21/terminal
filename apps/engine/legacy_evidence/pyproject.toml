@@ -1,0 +1,14 @@
+[project]
+name = "evidence-backtester"
+version = "0.1.0"
+description = "Local Yahoo Finance research and labeled synthetic trading scenarios"
+requires-python = ">=3.12"
+dependencies = ["streamlit==1.63.0", "pandas==3.0.5", "numpy==2.5.3", "pydantic==2.13.5", "requests==2.34.2", "keyring==25.7.0", "pyotp==2.10.0", "smartapi-python==1.5.5", "logzero==1.7.0", "websocket-client==1.9.2", "pycryptodome==3.23.0", "tzdata==2026.3", "yfinance==1.7.0", "altair==6.2.2"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+addopts = "-p no:cacheprovider"
+pythonpath = ["."]
+testpaths = ["tests"]

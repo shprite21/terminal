@@ -1,0 +1,41 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {backtest,rsi,starterStrategies} from '../lib/quant.ts';
+import {barsFor} from './fixtures.mjs';
+import {initialAccount,placePaperOrder} from '../lib/paper.ts';
+const base={...starterStrategies[0],lookback:2,slow:5,allocation:1};
+const bar=(i,close)=>({date:`2025-01-${String(i+1).padStart(2,'0')}`,open:close,high:close+1,low:close-1,close,volume:10000});
+test('explicit test datasets produce repeatable results',()=>{assert.deepEqual(barsFor('NVDA'),barsFor('NVDA'));const a=backtest(base,barsFor(base.symbol)),b=backtest(base,barsFor(base.symbol));assert.deepEqual(a.equity,b.equity);assert.deepEqual(a.trades,b.trades);assert.equal(a.fingerprint,b.fingerprint);});
+test('future bar changes cannot alter historical fills or equity',()=>{const bars=barsFor('SPY');const changed=bars.map((b,i)=>i<300?b:{...b,open:b.open*3,high:b.high*3,low:b.low*3,close:b.close*3});const a=backtest(base,bars),b=backtest(base,changed);assert.deepEqual(a.equity.slice(0,300),b.equity.slice(0,300));assert.deepEqual(a.trades.filter(t=>t.date<bars[300].date),b.trades.filter(t=>t.date<bars[300].date));});
+test('entry executes on next open, not the signal close',()=>{const result=backtest(base,[10,11,12,13,14,15].map((c,i)=>bar(i,c)));assert.equal(result.trades[0].date,'2025-01-04');assert.equal(result.trades[0].price,13);});
+test('cash plus marked holdings reconciles exactly to final equity',()=>{const result=backtest(base,barsFor(base.symbol));const bars=barsFor(base.symbol);assert.equal(result.finalCash+result.finalQuantity*bars.at(-1).close,result.equity.at(-1).value);assert.ok(result.finalCash>=-1e-8);assert.equal(result.metrics.fees,result.trades.reduce((s,t)=>s+t.fee,0));});
+test('costs reduce terminal wealth on a monotone price path',()=>{const bars=Array.from({length:20},(_,i)=>bar(i,10+i));assert.ok(backtest({...base,costBps:0},bars).equity.at(-1).value>backtest({...base,costBps:100},bars).equity.at(-1).value);});
+test('flat market has finite zero returns and zero volatility',()=>{const result=backtest(base,Array.from({length:20},(_,i)=>bar(i,10)));assert.equal(result.metrics.totalReturn,0);assert.equal(result.metrics.volatility,0);assert.equal(result.metrics.sharpe,0);assert.equal(rsi(Array(20).fill(10)),50);});
+test('invalid parameters and malformed bars are rejected',()=>{assert.throws(()=>backtest({...base,lookback:0}));assert.throws(()=>backtest({...base,capital:NaN}));assert.throws(()=>backtest(base,[bar(1,10),bar(0,10),bar(2,10)]));});
+test('paper purchases charge fees and preserve the input account',()=>{const after=placePaperOrder(initialAccount,'NVDA','BUY',10,100);assert.equal(after.cash,98999);assert.equal(after.positions.NVDA.cost,1001);assert.equal(initialAccount.cash,100000);assert.equal(initialAccount.orders.length,0);});
+test('paper sales become unsettled and cannot fund purchases',()=>{const bought=placePaperOrder({...initialAccount,cash:1001},'NVDA','BUY',10,100);const sold=placePaperOrder(bought,'NVDA','SELL',10,110);assert.equal(sold.cash,0);assert.equal(sold.unsettled,1098.9);assert.equal(sold.positions.NVDA.quantity,0);assert.throws(()=>placePaperOrder(sold,'NVDA','BUY',1,110),/settled cash/);});
+test('kill switch, short-sale, quantity, and order-size constraints apply',()=>{assert.throws(()=>placePaperOrder({...initialAccount,halted:true},'SPY','BUY',1,100),/kill switch/);assert.throws(()=>placePaperOrder(initialAccount,'SPY','SELL',1,100),/Short selling/);assert.throws(()=>placePaperOrder(initialAccount,'SPY','BUY',.5,100),/whole-share/);assert.throws(()=>placePaperOrder(initialAccount,'SPY','BUY',201,100),/risk limit/);});
+test('omitting input bars never generates market data',()=>{assert.throws(()=>backtest(base),/actual daily bars/);});
+test('a changed price anywhere changes the result fingerprint',()=>{const bars=barsFor('NVDA');const changed=bars.map((b,i)=>i===10?{...b,volume:b.volume+1}:b);assert.notEqual(backtest(base,bars).fingerprint,backtest(base,changed).fingerprint);});
+test('invalid and duplicate ISO dates fail closed',()=>{for(const date of ['2025-02-30','bad-date','2025-01-01']){const bars=[bar(0,10),{...bar(1,11),date},bar(2,12),bar(3,13)];assert.throws(()=>backtest(base,bars));}});
+test('a forward split preserves wealth and doubles held shares without triggering a false sale',()=>{
+  const prices=[10,11,12,13,7,8],bars=prices.map((c,i)=>bar(i,c));bars[4].splitRatio=2;
+  const result=backtest({...base,costBps:0},bars);
+  assert.equal(result.trades.length,1);assert.equal(result.finalQuantity,result.trades[0].quantity*2);
+  assert.equal(result.equity[4].value,result.finalCash+result.finalQuantity*7);
+  assert.ok(result.metrics.maxDrawdown>-0.01);
+});
+test('a dividend accrues only to prior holders and is not buying cash',()=>{
+  const bars=[10,11,12,13,14,15].map((c,i)=>bar(i,c));bars[3].dividend=1;bars[4].dividend=2;
+  const result=backtest({...base,costBps:0},bars),quantity=result.trades[0].quantity;
+  assert.equal(result.dividendReceivable,quantity*2);
+  assert.equal(result.finalCash,base.capital-quantity*13);
+  assert.equal(result.equity.at(-1).value,result.finalCash+quantity*15+quantity*2);
+});
+test('reverse splits settle fractional shares as cash and preserve nonnegative balances',()=>{
+  const bars=[10,11,12,13,28,30].map((c,i)=>bar(i,c));bars[4].splitRatio=.5;
+  const result=backtest({...base,capital:1001,costBps:0},bars);
+  assert.equal(result.finalQuantity,38);
+  assert.equal(result.finalCash,1001-77*13+14);
+  assert.equal(result.corporateActions[0].amount,14);
+});
